@@ -1,19 +1,19 @@
 {
-  "todos": [
+  "articles": [
     {
-      "title": "Create File",
-      "Description": "Trying to understand what a component is",
-      "checked": false
+      "title": "Libraries",
+      "url": "https://blog.bitsrc.io/9-web-component-ui-libraries-you-should-know-in-2019-9d4476c3f103",
+      "readed": false
     },
     {
-      "title": "Create Component",
-      "Description": "Trying to understand what a class is in JS",
-      "checked": false
+      "title": "Stencil.js Library",
+      "url": "https://medium.com/@sinedied/stencil-js-its-finally-time-for-vanilla-web-components-927d26b573e1",
+      "readed": false
     },
     {
-      "title": "Create render method",
-      "Description": "Trying to understand what a render Method is",
-      "checked": false
+      "title": "Micro-Frontends",
+      "url": "https://medium.com/@PepsRyuu/micro-frontends-341defa8d1d4",
+      "readed": false
     }
   ]
 }

@@ -3,9 +3,19 @@
 }
 
 body {
-  padding: 0;
   margin: 0;
   min-height: 100vh;
+  padding: 0;
+  background-color: #d84c6e;
+}
+
+h2 {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .title {
