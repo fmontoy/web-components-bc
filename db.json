@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "Create File",
+      "Description": "Trying to understand what a component is",
+      "checked": false
+    },
+    {
+      "title": "Create Component",
+      "Description": "Trying to understand what a class is in JS",
+      "checked": false
+    },
+    {
+      "title": "Create render method",
+      "Description": "Trying to understand what a render Method is",
+      "checked": false
+    }
+  ]
+}
