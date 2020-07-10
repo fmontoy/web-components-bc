@@ -22,3 +22,9 @@ a {
   font-size: 42px;
   font-weight: lighter;
 }
+
+.todos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

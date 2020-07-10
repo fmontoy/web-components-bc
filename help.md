@@ -1,6 +1,7 @@
 # Card Styles
 
-```.todos-li {
+```
+.todos-li {
 border: 2px dashed white;
 height: 200px;
 list-style-type: none;
