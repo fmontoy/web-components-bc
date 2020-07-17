@@ -12,6 +12,20 @@
   </head>
   <body>
     <h1 class="title">Hello World!</h1>
+    <section class="filter-container">
+      <div>
+        <input type="radio" name="filter" value="all" checked>
+        ALL
+      </div>
+      <div>
+        <input type="radio" name="filter" value="pending">
+        PENDING
+      </div>
+      <div>
+        <input type="radio" name="filter" value="completed">
+        COMPLETED
+      </div>
+    </section>
     <ul class="todos-list"></ul>
     <script src="app.js" type="module"></script>
   </body>

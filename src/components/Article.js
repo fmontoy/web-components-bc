@@ -72,13 +72,14 @@ class Article extends HTMLElement {
   setChecked = () => {
     this.checkbox = this.shadowRoot.querySelector('.checkbox-readed');
     this.checkbox.checked = this.readed;
-    this.checkbox.addEventListener('click', this.setColor);
+    this.checkbox.addEventListener('change', this.setColor);
     if (this.checkbox.checked) {
       this.checkbox.parentElement.parentElement.classList.add('card--checked');
     }
   };
 
   setColor = () => {
+    this.dispatchEvent(new CustomEvent('article-changed', { detail: { id: Number(this.id), checked: this.checkbox.checked }, bubbles: true }))
     this.checkbox.parentElement.parentElement.classList.toggle('card--checked');
   };
 }
